@@ -1,11 +1,13 @@
-from oop_alused.sodur import Sodur
+from sodur import Sodur
+from random import randint
 
-sodur 1 = Sodur()
-sodur 2 = sodur()
+
+sodur1 = Sodur()
+sodur2 = Sodur()
 
 while(sodur1.tervis > 0 and sodur2.tervis > 0):
-    kes_loob = radint(1,2)
-    if(kes_loob == 1)
+    kes_loob = randint(1,2)
+    if(kes_loob == 1):
         print("esimene lööb teist")
         sodur2.tervis -= 20
     if(kes_loob == 2):
@@ -14,5 +16,5 @@ while(sodur1.tervis > 0 and sodur2.tervis > 0):
 
 if sodur1.tervis != 0:
         print("teine sõdur voitis")
- else:
+else:
         print("esimene sõdur võitis")
