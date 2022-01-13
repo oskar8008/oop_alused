@@ -12,8 +12,7 @@ while(sodur1.tervis > 0 and sodur2.tervis > 0):
         print("tenie lööb esimest")
         sodur1.tervis -= 20
 
-    if sodur1.tervis != 0:
+if sodur1.tervis != 0:
         print("teine sõdur voitis")
-
-    else:
+ else:
         print("esimene sõdur võitis")
