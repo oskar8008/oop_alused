@@ -1,4 +1,4 @@
-from sodur import Sodur
+from sodur.sodur import Sodur
 from random import randint
 
 
